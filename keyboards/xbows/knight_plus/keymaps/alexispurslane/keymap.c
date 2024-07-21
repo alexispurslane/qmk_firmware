@@ -75,7 +75,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case KC_0:
     case KC_LBRC:
     case KC_RBRC:
-    case KC_SLSH:
         {
             if (record->event.pressed) {
                 if (mod_state & MOD_MASK_SHIFT) {
